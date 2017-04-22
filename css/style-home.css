@@ -1,0 +1,120 @@
+body {
+	border: 10px solid #191970;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Nixie One', cursive;
+	text-align: center;
+	color: #191970;
+}
+
+.container{
+	max-width: 85%;
+}
+.clearfix {
+  overflow: auto;
+}
+
+.navbar {
+	border-radius: 0px;
+	background-color: white;
+}
+
+.navbar-brand {
+	font-family: 'Nixie One', cursive;
+	font-size: 2em;
+}
+
+.about .about-section {
+	margin: 50px 0px 100px 0px;
+	padding: 40px;
+	background-color: #eee;
+}
+
+.about .headshot{
+	vertical-align: middle;
+}
+.about img {
+	width: 100%;
+	display: block;
+	padding: 20px;
+}
+
+.about-bio>.intro {
+	padding-bottom: 20px;
+}
+
+.about .about-bio {
+	padding: 20px;
+}
+
+.about .btn {
+	margin-top: 20px;
+}
+
+.work .work-section {
+	margin: 50px 0px 100px 0px;
+}
+.work .work-header {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.work img {
+	width: 90%;
+	padding: 20px;
+	display: block;
+	margin: auto;
+	transition: all .2s ease-in-out;
+}
+
+.work img:hover {
+	transform: scale(1.1);
+}
+
+.work .btn {
+	background-color: #191970;
+	color: white;
+/*	border-radius: 0px;*/
+	margin: 50px;
+}
+
+.work .btn:hover {
+	background-color: white;
+	color: #191970;
+}
+
+.contact .contact-section {
+	margin: 50px 0px 100px 0px;
+}
+.contact .contact-header {
+	text-align: center;
+}
+
+.contact .contact-social {
+	margin: auto;
+}
+
+.contact-icon img {
+	width: 100px;
+	display: inline;
+	margin: 0;
+}
+
+/*.contact .contact-form {
+	text-align: center;
+}
+
+.contact .contact-form>input {
+	width: 100%;
+}*/
+/*footer*/
+.footer .about-site, .copyright {
+	font-family: 'Nixie One', cursive;
+	text-align: center;
+}
+
+.footer {
+	margin-bottom: 40px;
+}

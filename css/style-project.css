@@ -1,0 +1,48 @@
+body {
+	border: 10px solid #191970;
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3 {
+	font-family: 'Nixie One', cursive;
+	text-align: center;
+	color: #191970;
+}
+
+.container{
+	max-width: 85%;
+}
+.clearfix {
+  overflow: auto;
+}
+
+.navbar {
+	border-radius: 0px;
+	background-color: white;
+}
+
+.navbar-brand {
+	font-family: 'Nixie One', cursive;
+	font-size: 2em;
+}
+
+.portfolio .portfolio-summary {
+	margin: 50px 10vw 100px 10vw;
+	padding: 40px;
+	background-color: #eee;
+}
+
+.project img {
+	width: 90%;
+	padding: 20px;
+	display: block;
+	margin: auto;
+	transition: all .2s ease-in-out;
+}
+
+.project img:hover {
+	transform: scale(1.1);
+}
+
+.project .project-section {
+	margin-bottom: 20px;
+}
