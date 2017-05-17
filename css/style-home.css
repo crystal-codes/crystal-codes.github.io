@@ -32,6 +32,14 @@ h1, h2, h3 {
 	background-color: #eee;
 }
 
+@media only screen
+	and (max-width: 500px) {
+		.about .about-section {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+	}
+
 .about .headshot{
 	vertical-align: middle;
 }
@@ -67,6 +75,7 @@ h1, h2, h3 {
 .about .about-bio {
 	padding: 20px;
 }
+
 
 .about .btn {
 	margin-top: 20px;
@@ -135,6 +144,13 @@ h1, h2, h3 {
 	display: inline;
 	margin: 0;
 }
+
+@media only screen
+	and (max-width: 500px) {
+		.contact-icon img {
+			width: 80px;
+		}
+	}
 
 
 /*footer*/
