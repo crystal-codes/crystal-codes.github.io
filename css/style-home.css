@@ -27,7 +27,7 @@ h1, h2, h3 {
 }
 
 .about .about-section {
-	margin: 50px 0px 100px 0px;
+	margin: 100px 0px 100px 0px;
 	padding: 40px;
 	background-color: #eee;
 }
@@ -35,6 +35,25 @@ h1, h2, h3 {
 .about .headshot{
 	vertical-align: middle;
 }
+
+@media only screen 
+	and (max-width: 992px) {
+		.about .headshot {
+			max-width: 75%;
+			margin-right: auto;
+			margin-left: auto;
+		}
+	}
+
+@media only screen 
+	and (max-width: 500px) {
+		.about .headshot {
+			max-width: 100%;
+			margin-right: auto;
+			margin-left: auto;
+		}
+	}
+
 .about img {
 	width: 100%;
 	display: block;
@@ -61,17 +80,32 @@ h1, h2, h3 {
 	margin-bottom: 40px;
 }
 
+.work .work-description {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
 .work img {
-	width: 90%;
+	width: 100%;
 	padding: 20px;
 	display: block;
 	margin: auto;
 	transition: all .2s ease-in-out;
 }
 
+@media only screen 
+	and (max-width: 992px) {
+		.work img {
+			max-width: 75%;
+			margin-right: auto;
+			margin-left: auto;
+		}
+	}
+
 .work img:hover {
 	transform: scale(1.1);
 }
+
 
 .work .btn {
 	background-color: #191970;
@@ -102,13 +136,7 @@ h1, h2, h3 {
 	margin: 0;
 }
 
-/*.contact .contact-form {
-	text-align: center;
-}
 
-.contact .contact-form>input {
-	width: 100%;
-}*/
 /*footer*/
 .footer .about-site, .copyright {
 	font-family: 'Nixie One', cursive;
